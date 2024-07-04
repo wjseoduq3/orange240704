@@ -10,8 +10,8 @@ plt.rcParams['axes.unicode_minus'] = False
 @st.cache_data
 def read_pensiondata():
     # print("▶ 공유파일 링크변환 경로명 : ", filepath)
-    # filepath="https://drive.google.com/uc?id=1D5vZP1q4SnviUTbC2Cu4TWuQs4ArSieI"
-    filepath="https://drive.google.com/uc?id=1MHfjaGvhJxCZ3TKMerdIux7r6ls5xp06"
+    filepath="https://drive.google.com/uc?id=1D5vZP1q4SnviUTbC2Cu4TWuQs4ArSieI"
+    # filepath="https://drive.google.com/uc?id=1MHfjaGvhJxCZ3TKMerdIux7r6ls5xp06"
     df = pd.read_csv(filepath, encoding='cp949')
     df.columns = [
         '자료생성년월', '사업장명', '사업자등록번호', '가입상태', '우편번호',
