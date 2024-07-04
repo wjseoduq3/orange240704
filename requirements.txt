@@ -1,0 +1,6 @@
+(#) pip list --format=freeze > requirements.txt
+
+pandas
+matplotlib
+numpy
+streamlit
