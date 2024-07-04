@@ -1,6 +1,4 @@
-(#) pip list --format=freeze > requirements.txt
-
-pandas
-matplotlib
-numpy
-streamlit
+pandas==2.2.1
+matplotlib==3.9.0
+numpy==1.26.4
+streamlit==1.35.0
